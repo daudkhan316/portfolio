@@ -1,0 +1,398 @@
+<div class="container my-5">
+    <div class="row">
+
+        <!-- <div class="col-12">
+            <div class="d-flex overflow-auto text-nowrap gap-5 mb-5">
+                <button class="btn theme-button border-0 theme-hover fw-bold active">All</button>
+                <button class="btn theme-button border-0 theme-hover fw-bold">UI Design</button>
+                <button class="btn theme-button border-0 theme-hover fw-bold">UX Design</button>
+                <button class="btn theme-button border-0 theme-hover fw-bold">Product Design</button>
+                <button class="btn theme-button border-0 theme-hover fw-bold">Articles</button>
+                <button class="btn theme-button border-0 theme-hover fw-bold">Tutorials</button>
+                <button class="btn theme-button border-0 theme-hover fw-bold">News</button>
+            </div>
+        </div> -->
+
+        <div class="col-12">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs content-tabs text-nowrap gap-0 gap-lg-5" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all"
+                        type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="uidesign-tab" data-bs-toggle="tab" data-bs-target="#uidesign"
+                        type="button" role="tab" aria-controls="uidesign" aria-selected="false">UI Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="uxdesign-tab" data-bs-toggle="tab" data-bs-target="#uxdesign"
+                        type="button" role="tab" aria-controls="uxdesign" aria-selected="false">UX Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="product-tab" data-bs-toggle="tab" data-bs-target="#product"
+                        type="button" role="tab" aria-controls="product" aria-selected="false">Product Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="articles-tab" data-bs-toggle="tab" data-bs-target="#articles"
+                        type="button" role="tab" aria-controls="articles" aria-selected="false">Articles</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tutorials-tab" data-bs-toggle="tab" data-bs-target="#tutorials"
+                        type="button" role="tab" aria-controls="tutorials" aria-selected="false">Tutorials</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button"
+                        role="tab" aria-controls="news" aria-selected="false">News</button>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+
+                <!-- All tab -->
+
+                <div class="tab-pane active" id="all" role="tabpanel" aria-labelledby="all-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col">
+                                <div class="card border-0">
+                                    <img [src]="blog1" class="card-img-top" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">Nov 23 2022</h6>
+                                        <h5 class="card-title">This way is wrong about UI Design.</h5>
+                                        <p class="card-text text-black">A quick guide to assisting users in the
+                                            challenging steps from
+                                            learning
+                                            about your podcast on the web. A quick guide to assisting users in the
+                                            challenging
+                                            steps from learning about your podcast on the web. </p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card border-0">
+                                    <img [src]="blog2" class="card-img-top" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">Nov 23 2022</h6>
+                                        <h5 class="card-title">This way is wrong about UI Design.</h5>
+                                        <p class="card-text text-black">A quick guide to assisting users in the
+                                            challenging steps from
+                                            learning
+                                            about your podcast on the web. A quick guide to assisting users in the
+                                            challenging
+                                            steps from learning about your podcast on the web. </p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card border-0">
+                                    <img [src]="blog1" class="card-img-top" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">Nov 23 2022</h6>
+                                        <h5 class="card-title">This way is wrong about UI Design.</h5>
+                                        <p class="card-text text-black">A quick guide to assisting users in the
+                                            challenging steps from
+                                            learning
+                                            about your podcast on the web. A quick guide to assisting users in the
+                                            challenging
+                                            steps from learning about your podcast on the web. </p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card border-0">
+                                    <img [src]="blog2" class="card-img-top" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">Nov 23 2022</h6>
+                                        <h5 class="card-title">This way is wrong about UI Design.</h5>
+                                        <p class="card-text text-black">A quick guide to assisting users in the
+                                            challenging steps from
+                                            learning
+                                            about your podcast on the web. A quick guide to assisting users in the
+                                            challenging
+                                            steps from learning about your podcast on the web. </p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card border-0">
+                                    <img [src]="blog1" class="card-img-top" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">Nov 23 2022</h6>
+                                        <h5 class="card-title">This way is wrong about UI Design.</h5>
+                                        <p class="card-text text-black">A quick guide to assisting users in the
+                                            challenging steps from
+                                            learning
+                                            about your podcast on the web. A quick guide to assisting users in the
+                                            challenging
+                                            steps from learning about your podcast on the web. </p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card border-0">
+                                    <img [src]="blog2" class="card-img-top" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">Nov 23 2022</h6>
+                                        <h5 class="card-title">This way is wrong about UI Design.</h5>
+                                        <p class="card-text text-black">A quick guide to assisting users in the
+                                            challenging steps from
+                                            learning
+                                            about your podcast on the web. A quick guide to assisting users in the
+                                            challenging
+                                            steps from learning about your podcast on the web. </p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- UI Design Tab -->
+
+                <div class="tab-pane" id="uidesign" role="tabpanel" aria-labelledby="uidesign-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col" *ngFor="let design of uiDesign">
+                                <div class="card border-0">
+                                    <img [src]="design.image" class="img-fluid" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">{{design.date}}</h6>
+                                        <h5 class="card-title">{{design.title}}</h5>
+                                        <p class="card-text text-black">{{design.description}}</p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- UX Design Tab -->
+
+                <div class="tab-pane" id="uxdesign" role="tabpanel" aria-labelledby="uxdesign-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col" *ngFor="let design of uxDesign">
+                                <div class="card border-0">
+                                    <img [src]="design.image" class="img-fluid" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">{{design.date}}</h6>
+                                        <h5 class="card-title">{{design.title}}</h5>
+                                        <p class="card-text text-black">{{design.description}}</p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Product Design Tab -->
+
+                <div class="tab-pane" id="product" role="tabpanel" aria-labelledby="product-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col" *ngFor="let design of productDesign">
+                                <div class="card border-0">
+                                    <img [src]="design.image" class="img-fluid" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">{{design.date}}</h6>
+                                        <h5 class="card-title">{{design.title}}</h5>
+                                        <p class="card-text text-black">{{design.description}}</p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Articles Tab -->
+
+                <div class="tab-pane" id="articles" role="tabpanel" aria-labelledby="articles-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col" *ngFor="let article of articles">
+                                <div class="card border-0">
+                                    <img [src]="article.image" class="img-fluid" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">{{article.date}}</h6>
+                                        <h5 class="card-title">{{article.title}}</h5>
+                                        <p class="card-text text-black">{{article.description}}</p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tutorials Tab -->
+
+                <div class="tab-pane" id="tutorials" role="tabpanel" aria-labelledby="tutorials-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col" *ngFor="let tutorial of tutorials">
+                                <div class="card border-0">
+                                    <img [src]="tutorial.image" class="img-fluid" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">{{tutorial.date}}</h6>
+                                        <h5 class="card-title">{{tutorial.title}}</h5>
+                                        <p class="card-text text-black">{{tutorial.description}}</p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- News Tab -->
+
+                <div class="tab-pane" id="news" role="tabpanel" aria-labelledby="news-tab">
+
+                    <div class="mt-5">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col" *ngFor="let _news of news">
+                                <div class="card border-0">
+                                    <img [src]="_news.image" class="img-fluid" alt="blog">
+                                    <div class="card-body ps-0">
+                                        <h6 class="text-black">{{_news.date}}</h6>
+                                        <h5 class="card-title">{{_news.title}}</h5>
+                                        <p class="card-text text-black">{{_news.description}}</p>
+                                        <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="col-12">
+
+            <div class="mt-5">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <div class="col">
+                        <div class="card border-0">
+                            <img [src]="blog1" class="card-img-top" alt="blog">
+                            <div class="card-body ps-0">
+                                <h6>Nov 23 2022</h6>
+                                <h5 class="card-title themecolor">This way is wrong about UI Design.</h5>
+                                <p class="card-text">A quick guide to assisting users in the challenging steps from
+                                    learning
+                                    about your podcast on the web. A quick guide to assisting users in the challenging
+                                    steps from learning about your podcast on the web. </p>
+                                <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-0">
+                            <img [src]="blog2" class="card-img-top" alt="blog">
+                            <div class="card-body ps-0">
+                                <h6>Nov 23 2022</h6>
+                                <h5 class="card-title themecolor">This way is wrong about UI Design.</h5>
+                                <p class="card-text">A quick guide to assisting users in the challenging steps from
+                                    learning
+                                    about your podcast on the web. A quick guide to assisting users in the challenging
+                                    steps from learning about your podcast on the web. </p>
+                                <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-0">
+                            <img [src]="blog1" class="card-img-top" alt="blog">
+                            <div class="card-body ps-0">
+                                <h6>Nov 23 2022</h6>
+                                <h5 class="card-title themecolor">This way is wrong about UI Design.</h5>
+                                <p class="card-text">A quick guide to assisting users in the challenging steps from
+                                    learning
+                                    about your podcast on the web. A quick guide to assisting users in the challenging
+                                    steps from learning about your podcast on the web. </p>
+                                <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-0">
+                            <img [src]="blog2" class="card-img-top" alt="blog">
+                            <div class="card-body ps-0">
+                                <h6>Nov 23 2022</h6>
+                                <h5 class="card-title themecolor">This way is wrong about UI Design.</h5>
+                                <p class="card-text">A quick guide to assisting users in the challenging steps from
+                                    learning
+                                    about your podcast on the web. A quick guide to assisting users in the challenging
+                                    steps from learning about your podcast on the web. </p>
+                                <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-0">
+                            <img [src]="blog1" class="card-img-top" alt="blog">
+                            <div class="card-body ps-0">
+                                <h6>Nov 23 2022</h6>
+                                <h5 class="card-title themecolor">This way is wrong about UI Design.</h5>
+                                <p class="card-text">A quick guide to assisting users in the challenging steps from
+                                    learning
+                                    about your podcast on the web. A quick guide to assisting users in the challenging
+                                    steps from learning about your podcast on the web. </p>
+                                <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-0">
+                            <img [src]="blog2" class="card-img-top" alt="blog">
+                            <div class="card-body ps-0">
+                                <h6>Nov 23 2022</h6>
+                                <h5 class="card-title themecolor">This way is wrong about UI Design.</h5>
+                                <p class="card-text">A quick guide to assisting users in the challenging steps from
+                                    learning
+                                    about your podcast on the web. A quick guide to assisting users in the challenging
+                                    steps from learning about your podcast on the web. </p>
+                                <footer><a routerLink="/blog" class="active">READ MORE</a></footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>

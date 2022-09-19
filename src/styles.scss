@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    overflow-x: hidden;
+}
+
+.content-tabs
+{
+    overflow-y: hidden;
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+}
+
+.check {
+    border: 1px solid red !important;
+}
+
+.themecolor {
+    color: #D05270 !important;
+}
+
+
+.theme-hover:hover {
+    color: #D05270 !important;
+    border-bottom: 2px solid #D05270 !important;
+    border-radius: 0;
+}
+
+.theme-button {
+    border-bottom: 2px solid transparent !important;
+    border-radius: 0;
+}
+
+.active {
+    color: #D05270 !important;
+    border-bottom: 2px solid #D05270 !important;
+    border-radius: 0 !important;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px)
+{
+    body {
+        // padding: 0 120px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .section-space {
+        margin-bottom: 150px !important;
+    }
+
+    .blog-picture {
+        height: 600px;
+    }
+
+    body {
+        padding: 0 200px;
+    }
+
+}
